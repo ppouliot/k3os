@@ -4,6 +4,7 @@
       "flavor": "{{user `os_flavor`}}",
       "floating_ip_pool": "{{user `os_floating_ip_pool`}}",
       "image_name": "k3OS-{{user `k3os_version`}}-arm64",
+      "image_visibility": "public",
       "networks": "{{user `os_network_id`}}",
       "security_groups": [
         "default"
